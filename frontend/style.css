@@ -1,7 +1,5 @@
+/*
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
     background-color: blanchedalmond;
 }
 
@@ -30,7 +28,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 35px 20%;
 }
 
 .navButtons {
@@ -40,4 +37,81 @@ header {
 .navButtons li{
     cursor: none;
     display: inline-block;
+}
+*/
+
+
+/*
+.navBar {
+    background: skyblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.navBarEntries{
+    background: inherit;
+}
+
+.navBarLogo {
+    background: url("https://webcomicms.net/sites/default/files/clipart/164183/royalty-free-logo-164183-5018731.png");
+}
+
+.makePostButton {
+}
+
+.navButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+*/ 
+
+
+    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Balsamiq Sans', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 7.5vh;
+    background-color: aquamarine;
+}
+
+.logo {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 2em;
+}
+
+.navButtons {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.navButtons > li > a {
+    margin: 2px;
+    border: 1.5px solid black;
+    padding: 5px;
+    text-decoration: none;
+    color: inherit;
+    border-radius: 55px;
+    font-size: 0.85em;
+}
+
+.navButtons > li > a:hover {
+    background-color: rgb(0, 231, 255);
+    cursor: pointer;
+}
+
+.content {
+    width: 75vw;
+    margin: 0 auto;
 }
