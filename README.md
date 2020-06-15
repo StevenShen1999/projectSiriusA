@@ -12,7 +12,7 @@ A personal website to document my learning experience with regards to frontend d
 2. If new blog posts are written while we are browsing, a "See New Post" button will be shown on the top of the screen
 
 ## Planned Technology Stack:
-1. HTML/CSS
+1. HTML/CSS/Bootstrap
 2. Vue.js
-3. Python/Flask
-4. MongoDB
+3. Python/Flask (marshamllow for input sanitation, swagger for documentation, SQLAlchemy for ORM and flask-restx for tying the three together)
+4. PostgreSQL (might switch this out to a lighter db such as SQLite)
