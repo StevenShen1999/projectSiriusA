@@ -2,10 +2,10 @@
 A personal website to document my learning experience with regards to frontend development
 
 ## Plan:
-1. A navbar on top (logo on the top left, a write new blog feature in the middle and a contact button plus search bar on the top right)
-2. A side panel on the left to browse older blog posts
+1. A navbar on top (logo on the top left, a write new blog feature in the middle and a contact button plus search bar on the top right) (Completed)
+2. A side panel on the left to browse older blog posts (Completed)
 3. A side panel on the right which will be left empty for now but can be utilised for other features in the future.
-4. A main panel in the middle to showcase all the blog posts.
+4. A main panel in the middle to showcase all the blog posts. (Completed)
 
 ## Behaviour:
 1. As we scroll down the middle, it will load five blog posts each time the window reaches the bottom of the screen.
