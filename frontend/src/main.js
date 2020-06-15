@@ -12,6 +12,8 @@ Vue.use(VueResource);
 Vue.use(VueRouter);
 Vue.use('ValidationProvider', ValidationProvider);
 
+export const bus = new Vue();
+
 const router = new VueRouter({
     routes: Routes,
     mode: 'history'
