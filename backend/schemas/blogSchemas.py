@@ -6,8 +6,8 @@ from models.blogs import Blogs
 from uuid import uuid4
 
 class BlogCreationSchema(Schema):
-    title = fields.String(required=True, allow_none=False)
-    content = fields.String(required=True, allow_none=False)
+    title = fields.String(required=True, allow_none=False, validate=validate.Length(min=3))
+    content = fields.String(required=True, allow_none=False, validate=validate.Length(min=3))
 
     @post_load
     def makeNote(self, data, **kwargs):
