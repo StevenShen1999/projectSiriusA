@@ -24,10 +24,10 @@ export default {
     },
     created(){
         this.fetchBlogs();
-        this.timer = setInterval(this.fetchBlogs, 5000);
         bus.$on('searchDefined', (data) => {
             this.search = data;
         });
+        this.timer = setInterval(this.fetchBlogs, 5000);
     },
     methods: {
         fetchBlogs() {

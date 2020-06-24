@@ -42,6 +42,8 @@ export default {
     methods: {
         submitSearch(){
             bus.$emit('searchDefined', this.searchTerm);
+            // TODO: Fix search not working if we are not on the main page
+            //this.$router.push({path: '/'});
         }
     }
 }
